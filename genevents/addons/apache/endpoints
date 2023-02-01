@@ -1,0 +1,12 @@
+"GET /cgi-bin/try/ HTTP/1.0" 200 3395
+"GET / HTTP/1.0" 200 2216
+"GET /hidden/ HTTP/1.0" 404 7218
+"PROPFIND /svn/wsa/Extranet/branches/SOW-101 HTTP/1.1" 404 587
+"POST /svn/services/connections/trunk HTTP/1.1" 401 587
+"PROPFIND /svn/access/my_custom_app/2.5 HTTP/1.1" 401 587
+"PROPFIND /svn/wsa/Extranet/branches/SOW-101 HTTP/1.1" 200 587
+"POST /svn/services/connections/trunk HTTP/1.1" 201 587
+"PROPFIND /svn/access/my_custom_app/2.5 HTTP/1.1" 200 587
+"PROPFIND /svn/services/connections/trunk HTTP/1.1" 401 587
+"POST /svn/services/connections/trunk HTTP/1.1" 401 587
+"PROPFIND /svn/wsa/Extranet/branches/SOW-101 HTTP/1.1" 401 587
